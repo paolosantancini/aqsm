@@ -1,30 +1,39 @@
 """
 SDS011 SENSOR OBJECT CLASS
-Created on Thu Feb 11 18:51:23 2021
 
 @author: Paolo Santancini
 """
 
 import serial
+from modules import io
 
 class Sds011:
-
-    SDS011_LOG = './data/sds011.log'
-    SER = serial.Serial('/dev/ttyUSB0')
     
-    def __init__(self):
-        pass
+    def __init__(self, device, filelog):
+        self.device = device
+        self.filelog = filelog
     
     def Acquiring(self, DETECTIONS):
+        SER = serial.Serial(self.device)
+        output = io.Io(self.filelog)
+        output.Open()
         count = 0
-        f = open(Sds011.SDS011_LOG, 'w')
         while count < DETECTIONS:
             data = []
             for index in range(0,10):
-                datum = Sds011.SER.read()
+                datum = SER.read()
                 data.append(datum)
-            pmtwofive = int.from_bytes(b''.join(data[2:4]), byteorder='little') / 10
-            pmten = int.from_bytes(b''.join(data[4:6]), byteorder='little') / 10
-            f.write(f'{pmtwofive};{pmten}\n')
+            # read 2:4 bytes for PM2.5 value
+            pmtwofive = int.from_bytes(b''.join(data[2:4]), 
+                                       byteorder='little') / 10
+            # read 4:6 bytes for PM10 value
+            pmten = int.from_bytes(b''.join(data[4:6]), 
+                                   byteorder='little') / 10
+            string = f'{pmtwofive};{pmten}\n'
+            output.Write(string) # write in buffer
             count = count + 1
-        f.close()
+        output.Close()
+    
+    def getData(self):
+        objIo = io.Io(self.filelog)
+        return (objIo.getCsvData())
