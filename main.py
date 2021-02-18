@@ -7,7 +7,6 @@ AIR QUALITY MONITORING SYSTEM
 
 from modules import dht22
 from modules import sds011
-from modules import caller
 from modules import microelab
 import time, threading
 import logging
