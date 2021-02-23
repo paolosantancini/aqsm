@@ -8,6 +8,7 @@ AIR QUALITY MONITORING SYSTEM
 from modules import dht22
 from modules import sds011
 from modules import microelab
+from modules import vk162
 import time, threading
 import logging
 
@@ -30,6 +31,7 @@ if __name__ == "__main__":
                                     {'content-type': 'application/json'})
     objDht22 = dht22.Dht22(4, './data/dht22.log')
     objSds011 = sds011.Sds011('/dev/ttyUSB0', './data/sds011.log')
+    objVk162 = vk162.Vk162("/dev/ttyACM0")
     count = 0
     ts = time.time()
     logging.info("Partenza: %s", ts)
@@ -48,7 +50,7 @@ if __name__ == "__main__":
         (pm10, pm2_5, lines) = objSds011.getData()
         (avgTemperature, avgHumidity) = objMicroe.getTH(temperature, humidity, lines) # temp and humidity math avarage
         (avgPm10, avgPm2_5) = objMicroe.getPP(pm10, pm2_5, lines) # pm10 and 2.5 math avarage
-        
+        (lon, lat) = objVk162.getPositionData() # read gps coordinates
         # sending temperature value
         req_num = 0
         flag = 0
