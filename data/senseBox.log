@@ -1,69 +1,609 @@
-Partenza: 1613068940.352973
-Ciclo: 1
-Partenza: 1613069025.555589
-Ciclo: 1
-Partenza: 1613069115.9604087
-Ciclo: 1
-Partenza: 1613069182.8035414
-Ciclo: 1
-Fine: 1613069184.410342
-Partenza: 1613125780.9716399
-Ciclo: 1
-Partenza: 1613125803.0046685
-Ciclo: 1
-Fine: 1613125805.1787474
-Partenza: 1613125968.3540468
-Ciclo: 1
-Fine: 1613125970.2637174
-Partenza: 1613126228.212138
-Ciclo: 1
-Fine: 1613126232.341825
-Partenza: 1613126556.8171966
-Ciclo: 1
-Fine: 1613126560.9326785
-Partenza: 1613150708.876039
-Ciclo: 1
-Partenza: 1613150756.8087065
-Ciclo: 1
-Partenza: 1613150846.169821
-Ciclo: 1
-Partenza: 1613151720.2038066
-Ciclo: 1
-Fine: 1613151722.2638395
-Partenza: 1613152068.5990252
-Ciclo: 1
-Fine: 1613152075.523383
-Partenza: 1613153783.7818599
-Ciclo: 1
-Partenza: 1613153953.8092718
-Ciclo: 1
-Partenza: 1613154040.921037
-Ciclo: 1
-Partenza: 1613154060.6690416
+Partenza: 1613749874.9172912
 Ciclo: 1
 POST Temperature 201
 POST Humidity 201
 POST PM10 201
 POST PM2.5 201
-Fine: 1613154072.3923435
-Partenza: 1613154114.374516
-Ciclo: 1
+Ciclo: 2
 POST Temperature 201
 POST Humidity 201
 POST PM10 201
 POST PM2.5 201
-Fine: 1613154122.45846
-Partenza: 1613154216.5545511
-Ciclo: 1
+Ciclo: 3
 POST Temperature 201
 POST Humidity 201
 POST PM10 201
 POST PM2.5 201
-Fine: 1613154226.5801861
-Partenza: 1613675611.3145728
-Ciclo: 1
+Ciclo: 4
 POST Temperature 201
 POST Humidity 201
 POST PM10 201
 POST PM2.5 201
-Fine: 1613675617.8876567
+Ciclo: 5
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 6
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 7
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 8
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 9
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 10
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 11
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 12
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 13
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 14
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 15
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 16
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 17
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 18
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 19
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 20
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 21
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 22
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 23
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 24
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 25
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 26
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 27
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 28
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 29
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 30
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 31
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 32
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 33
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 34
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 35
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 36
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 37
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 38
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 39
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 40
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 41
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 42
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 43
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 44
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 45
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 46
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 47
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 48
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 49
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 50
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 51
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 52
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 53
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 54
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 55
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 56
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 57
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 58
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 59
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 60
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 61
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 62
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 63
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 64
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 65
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 66
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 67
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 68
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 69
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 70
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 71
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 72
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 73
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 74
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 75
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 76
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 77
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 78
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 79
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 80
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 81
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 82
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 83
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 84
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 85
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 86
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 87
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 88
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 89
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 90
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 91
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 92
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 93
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 94
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 95
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 96
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 97
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 98
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 99
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 100
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 101
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 102
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 103
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 104
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 105
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 106
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 107
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 108
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 109
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 110
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 111
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 112
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 113
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 114
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 115
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 116
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 117
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 118
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 119
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 120
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 121
+POST Temperature 201
+POST Humidity 201
+POST PM10 201
+POST PM2.5 201
+Ciclo: 122
+POST Temperature 201
+POST Humidity 201

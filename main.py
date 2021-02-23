@@ -12,8 +12,8 @@ import time, threading
 import logging
 
 
-DETECTIONS = 3 # sample size
-CICLI = 1 # number of observations
+DETECTIONS = 30 # sample size
+CICLI = 10000 # number of observations
 SENSE_BOX = '601931c24f0ae0001b70092d' # Centrale di monitoraggio unique ID
 SENSORID_1 = '601931c24f0ae0001b700931' # Temperature Sensor unique ID
 SENSORID_2 = '601931c24f0ae0001b700930' # Humidity Sensor unique ID
