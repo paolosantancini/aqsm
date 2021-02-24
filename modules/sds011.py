@@ -16,7 +16,7 @@ class Sds011:
     def Acquiring(self, DETECTIONS):
         SER = serial.Serial(self.device)
         output = io.Io(self.filelog)
-        output.Open()
+        output.Open('w')
         count = 0
         while count < DETECTIONS:
             data = []

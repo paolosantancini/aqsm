@@ -17,7 +17,7 @@ class Dht22:
         
     def Acquiring(self, detections):
         output = io.Io(self.filelog)
-        output.Open()
+        output.Open('w')
         count = 0
         while count < detections:
             humidity, temperature = Adafruit_DHT.read_retry(Dht22.DHT_SENSOR, self.dht_pin)

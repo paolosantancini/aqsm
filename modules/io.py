@@ -13,8 +13,8 @@ class Io:
     def __init__(self, filelog):
         self.filelog = filelog
         
-    def Open(self):
-        Io.f = open(self.filelog, 'w')
+    def Open(self, mode):
+        Io.f = open(self.filelog, mode)
         
     def Close(self):
         Io.f.close()
