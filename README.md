@@ -12,4 +12,5 @@ Follow these steps to run it:
 1. clone the project
 2. cd aqsm
 2. install Adafruit_DHT by: sudo pip3 install Adafruit_DHT
-3. run: python3 main.py
+3. install python iota modules: sudo pip3 install pyota
+4. run: python3 main.py
