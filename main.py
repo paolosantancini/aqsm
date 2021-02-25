@@ -15,8 +15,8 @@ import time, threading
 import logging
 
 
-DETECTIONS = 10 # sample size
-CICLI = 2  # number of observations
+DETECTIONS = 50 # sample size
+CICLI = 2000  # number of observations
 
 # SENSEBOX CONFIGURATION PARAMS
 SENSE_BOX_NAME = 'Uninettuno_senseBox_1'

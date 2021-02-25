@@ -46,8 +46,10 @@ class Vk162:
             # Get the position data that was transmitted with the GPRMC message
             # In this example, I'm only interested in the longitude and latitude
             # for other values, that can be read, refer to: http://aprs.gids.nl/nmea/#rmc
-                longitude = Vk162.formatDegreesMinutes(parts[5], 3)
-                latitude = Vk162.formatDegreesMinutes(parts[3], 2)
+                #longitude = Vk162.formatDegreesMinutes(parts[5], 3)
+                longitude = parts[5]
+                #latitude = Vk162.formatDegreesMinutes(parts[3], 2)
+                latitude = parts[3]
                 return(str(longitude),str(latitude))
         else:
             return('E','E')
