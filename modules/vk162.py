@@ -31,7 +31,7 @@ class Vk162:
 # This method reads the data from the serial port, the GPS dongle is attached to,
 # and then parses the NMEA messages it transmits.
 # gps is the serial port, that's used to communicate with the GPS adapter
-    def getPositionData(self):
+    def getPositionData(self,lon,lat):
         gps = serial.Serial(self.serial, 9600)
         data = str(gps.readline())
         gps.close()
@@ -41,7 +41,7 @@ class Vk162:
             parts = data.split(",")
             if parts[2] == 'V':
                 # V = Warning, most likely, there are no satellites in view...
-                return (0,0)
+                return (lon,lat)
             else:
             # Get the position data that was transmitted with the GPRMC message
             # In this example, I'm only interested in the longitude and latitude
@@ -50,4 +50,4 @@ class Vk162:
                 latitude = Vk162.formatDegreesMinutes(parts[3], 2)
                 return(str(longitude),str(latitude))
         else:
-            return(0,0)
+            return('E','E')
