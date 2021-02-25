@@ -16,7 +16,8 @@ import logging
 
 
 DETECTIONS = 10 # sample size
-CICLI = 2 # number of observations
+CICLI = 2  # number of observations
+SENSE_BOX_NAME = 'Uninettuno_senseBox_1'
 SENSE_BOX = '601931c24f0ae0001b70092d' # Centrale di monitoraggio unique ID
 SENSORID_1 = '601931c24f0ae0001b700931' # Temperature Sensor unique ID
 SENSORID_2 = '601931c24f0ae0001b700930' # Humidity Sensor unique ID
@@ -24,7 +25,7 @@ SENSORID_3 = '601931c24f0ae0001b70092f' # PM10 Sensor unique ID
 SENSORID_4 = '601931c24f0ae0001b70092e' # PM2.5 Sensor unique ID
 
 # DAG SYSTEM PARAMS
-iota_testnet = 'https://explorer.iota.org/devnet/transaction/'
+# iota_testnet = 'https://explorer.iota.org/devnet/transaction/'
 api_url = 'https://nodes.devnet.iota.org:443'
 address = 'WAGVEQ9JUZZWCZXLWVNTHBDX9G9KZTJP9VEERIIFHY9SIQKYBVAHIMLHXPQVE9IXFDDXNHQINXJDRPFDXNYVAPLZLZ'
 buffer = '' # dag buffer writing
@@ -60,11 +61,12 @@ if __name__ == "__main__":
         (pm10, pm2_5, lines) = objSds011.getData()
         (avgTemperature, avgHumidity) = objMicroe.getTH(temperature, humidity, lines) # temp and humidity math avarage
         (avgPm10, avgPm2_5) = objMicroe.getPP(pm10, pm2_5, lines) # pm10 and 2.5 math avarage
-        (lon, lat) = objVk162.getPositionData() # read gps coordinates
-        buffer = str(time.time())+";"+str(avgTemperature) + ";" + str(avgHumidity) + ";" + str(avgPm10) + ";" + str(avgPm2_5) + ";" + str(lon) + ";" + str(lat)
+        (lon, lat) = objVk162.getPositionData()  # read gps coordinates
+        buffer = SENSE_BOX_NAME + ";" + str(time.time())+";"+str(avgTemperature) + ";" + str(avgHumidity) + ";" + str(avgPm10) + ";" + str(avgPm2_5) + ";" + str(lon) + ";" + str(lat)
         # sending data to dag system and compose result message
-        buffer = buffer + ";" + iota_testnet + str(objIota.doTransaction(buffer)) + "\n"
-        # write down buffer values into csv file
+        buffer = buffer + ";" + str(objIota.doTransaction(buffer)) + "\n"
+        # write down buffer values into csv file 
+        # (SENSE_BOX_ID; TEMPERATURE_AVARAGE; HUMIDITY_AVARAGE; PM10_AVARAGE; PM2.5_AVARAGE; LONGITUDE; LATITUDE; DLT_HASH)
         objIo.Open('a+')
         objIo.Write(buffer)
         objIo.Close()
