@@ -23,11 +23,11 @@ class Sds011:
             for index in range(0,10):
                 datum = SER.read()
                 data.append(datum)
-            # read 2:4 bytes for PM2.5 value
-            pmtwofive = int.from_bytes(b''.join(data[2:4]), 
+            # read 2:4 bytes for PM10 value
+            pmten = int.from_bytes(b''.join(data[2:4]), 
                                        byteorder='little') / 10
-            # read 4:6 bytes for PM10 value
-            pmten = int.from_bytes(b''.join(data[4:6]), 
+            # read 4:6 bytes for PM2.5 value
+            pmtwofive = int.from_bytes(b''.join(data[4:6]), 
                                    byteorder='little') / 10
             string = f'{pmtwofive};{pmten}\n'
             output.Write(string) # write in buffer

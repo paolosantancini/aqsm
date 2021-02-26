@@ -16,7 +16,7 @@ import logging
 
 
 DETECTIONS = 50 # sample size
-CICLI = 2000  # number of observations
+CICLI = 9955  # number of observations
 
 # SENSEBOX CONFIGURATION PARAMS
 SENSE_BOX_NAME = 'Uninettuno_senseBox_1'
