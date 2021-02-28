@@ -30,5 +30,9 @@ class Microelab:
     def updateOSM(self,senseBox, sensorID, value):
         url = self.api_url+senseBox+'/'+ sensorID
         payload = {'value': value}
-        r = requests.post(url, data=json.dumps(payload), headers=self.content)
-        return(r.status_code)
+        try:
+            r = requests.post(url, data=json.dumps(payload), headers=self.content)
+        except:
+            return(0)
+        finally:
+            return(r.status_code)
