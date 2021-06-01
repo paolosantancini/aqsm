@@ -14,3 +14,6 @@ Follow these steps to run it:
 2. install Adafruit_DHT by: sudo pip3 install Adafruit_DHT
 3. install python iota modules: sudo pip3 install pyota
 4. run: python3 main.py
+
+# DATA-MINING
+"datamining_elab.py" is a Google Colab sperimental page. It gets a dataset (.csv) and applies k-means algorithm.
